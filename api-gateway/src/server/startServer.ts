@@ -1,6 +1,5 @@
 import resolvers from "#root/graphql/resolvers";
 import { schema } from "#root/graphql/schema";
-import accessEnv from "#root/helpers/accessEnv";
 import { ApolloServer } from "apollo-server-express";
 import config from "config";
 import cookieParser from "cookie-parser";

@@ -1,6 +1,7 @@
-import * as Query from "./Query";
-import UserSession from "./UserSession"
+import UserSession from "./UserSession";
+import Query from "./Query";
+import Mutation from "./Mutation";
 
-const resolvers = { Query, UserSession };
+const resolvers = { Query, UserSession, Mutation };
 
 export default resolvers;
