@@ -6,6 +6,7 @@ export const schema = gql`
   type User {
     id: ID!
     username: String!
+    createdAt: Date!
   }
 
   type UserSession {
